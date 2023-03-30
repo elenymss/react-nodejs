@@ -117,7 +117,7 @@ const CompEditUser = () => {
                   <button type="submit" class=" btn-login m-2">
                     Guardar
                   </button>
-                  <Link to={'/admin/aprendiz'} className="btn-cancel m-2">Volver</Link>
+                  <Link to={'/admin/aprendiz'} className="btn-cancel m-2"><strong>Volver</strong></Link>
                 </div>
               </form>
             </div>

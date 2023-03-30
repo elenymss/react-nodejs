@@ -622,14 +622,7 @@ body {
 	margin-left: 0.125rem;
 }
 
-.cards-2 .fa-circle {
-	color: #dd7deb;
-	transition: all 0.2s ease;
-}
 
-.cards-2 .fa-stack:hover .fa-circle {
-	color: #01d85f;
-}
 
 .cards-2 .fab {
 	color: #ffffff;
@@ -695,4 +688,5 @@ background: #eee;
   border-radius: 5px;
   text-decoration: none;
   padding: 10px ;
+  text-align: center;
 }
