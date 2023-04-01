@@ -1,5 +1,6 @@
 import React from "react";
 import img1 from "../assets/svg/img1.svg"
+import { Link } from "react-router-dom";
 function InicioSesion (){
     return(   
     <section class="vh-100 bg-login">
@@ -32,8 +33,8 @@ function InicioSesion (){
               </div>
               {/* <a href="#!">Forgot password?</a> */}
             </div>
-            <div className="d-flex justify-content-center mt-5">
-            <button type="submit" class=" btn-login p-2">Sign in</button>
+            <div className="d-flex justify-content-center mt-5 ">
+            <Link to="/admin" type="submit" class=" btn-login p-2">Sign in</Link>
             </div>
             <div className="d-flex justify-content-center mt-5">
                 <a className="link" href="#!">Volver al menu principal </a>

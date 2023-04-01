@@ -657,6 +657,8 @@ height: 1px;
 background: #eee;
 }
 .btn-login{
+  text-align: center;
+  text-decoration: none;
   width: 200px;
   background: #021f31;
   color: white;

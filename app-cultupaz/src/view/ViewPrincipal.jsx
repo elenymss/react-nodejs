@@ -14,6 +14,8 @@ import emprendimiento from "../assets/img/emprendimiento.png";
 import muro from "../assets/img/muro.png";
 import psi from "../assets/img/psi.png"
 
+import { Link } from 'react-router-dom'
+
 
 function ViewAdmin() {
   return (
@@ -38,13 +40,13 @@ function ViewAdmin() {
                 Registrate
               </button>
               {/* <button className="btn2" type="submit" >Ingresar</button> */}
-              <a href="./user/index.jsx" className="btn-neon">
+              <Link to="/login" className="btn-neon">
                 <span id="span1"></span>
                 <span id="span2"></span>
                 <span id="span3"></span>
                 <span id="span4"></span>
                 Ingresar
-              </a>
+              </Link>
             </div>
           </section>
           <section className="card-c1">
